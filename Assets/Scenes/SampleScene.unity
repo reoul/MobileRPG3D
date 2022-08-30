@@ -1550,7 +1550,7 @@ GameObject:
   - component: {fileID: 260721590}
   - component: {fileID: 260721589}
   m_Layer: 5
-  m_Name: TouchPadBack
+  m_Name: JoystickBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8489,7 +8489,7 @@ GameObject:
   - component: {fileID: 1271219743}
   - component: {fileID: 1271219742}
   m_Layer: 5
-  m_Name: TouchPadArea
+  m_Name: JoystickArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8527,9 +8527,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8411305a29af7a429c3b0d8689d71c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 225677928}
-  _touchPadBackObj: {fileID: 260721587}
-  _touchPadFrontObj: {fileID: 1295190129}
+  _joystickBackObj: {fileID: 260721587}
+  _joystickFrontObj: {fileID: 1295190129}
 --- !u!114 &1271219743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8674,7 +8673,7 @@ GameObject:
   - component: {fileID: 1295190132}
   - component: {fileID: 1295190131}
   m_Layer: 5
-  m_Name: TouchPadFront
+  m_Name: JoystickFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
